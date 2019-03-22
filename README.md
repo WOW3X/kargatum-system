@@ -2,23 +2,29 @@
 
 # Главное меню / Main menu
 1. Паблик скрипты / Public scripts
-- 1.1. [Pre Release]    mod-anti-advertisment
-- 1.2. [Pre Release]    mod-auto-revive
-- 1.3. [Pre Release]    mod-bg-reward
-- 1.4. [Pre Release]    mod-buff-command
-- 1.5. [Pre Release]    mod-faction-icons-channel
-- 1.6. [Pre Release]    mod-gm-chat-color
-- 1.7. [Pre Release]    mod-level-reward
-- 1.8. [Pre Release]    mod-notify-muted
-- 1.9. [Pre Release]    mod-online-reward
-- 1.10. [Pre Release]   mod-player-login
-- 1.11. [Initial]       mod-spell-duration
+- 1.1. [Release]    mod-anti-advertisment
+- 1.2. [Release]    mod-auto-revive
+- 1.3. [Release]    mod-bg-reward
+- 1.4. [Release]    mod-buff-command
+- 1.5. [Release]    mod-faction-icons-channel
+- 1.6. [Release]    mod-gm-chat-color
+- 1.7. [Release]    mod-level-reward
+- 1.8. [Release]    mod-notify-muted
+- 1.9. [Release]    mod-online-reward
+- 1.10. [Release]   mod-player-login
+- 1.11. [Coming soon] mod-spell-duration
 2. Приват скрипты / Private scripts
-- 2.1. [Beta]           mod-crossfaction-bg
+- 2.1. [Coming soon] mod-crossfaction-bg
 
 ### I understand only English [->](https://github.com/Winfidonarleyan/kargatum-system/blob/master/README.md#description-modules-and-custom-scripts-in-english-language)
 
 ## Краткое описание скриптов и модулей на русском языке
+
+### Чтобы включить поддержку русского языка
+Нужно раскомментировать данную строку в файле [KargatumConfig.h#L13](https://github.com/Winfidonarleyan/kargatum-system/blob/master/src/Kargatum-lib/KargatumConfig.h#L13). В итоге должно получить вот так. 
+```cpp
+#define KARGATUM_RUS_LANG
+```
 
 ## Паблик скрипты
 ### mod-anti-advertisment
